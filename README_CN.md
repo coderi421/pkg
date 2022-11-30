@@ -10,9 +10,9 @@
 
 Limited ability, make it better~
 
-- [安装](#安装)
-- [pkg/file 包](#pkg/file 包)
-  - [例子](#例子)
+- [安装](https://github.com/CoderI421/pkg/blob/main/README_CN.md#%E5%AE%89%E8%A3%85)
+- [pkg/file 包](https://github.com/CoderI421/pkg/edit/main/README_CN.md#pkgfile-%E5%8C%85)
+  - [例子](https://github.com/CoderI421/pkg/edit/main/README_CN.md#%E4%BE%8B%E5%AD%90)
 
 ## 安装
 
