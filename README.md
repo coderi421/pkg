@@ -12,9 +12,9 @@ I will be glad if it can be of any help to you~
 
 Limited ability, make it better~
 
-- [Install](#install)
-- [pkg/file package](#pkg/file package)
-  - [Example](#Example)
+- [Install](https://github.com/CoderI421/pkg/edit/main/README.md#install)
+- [pkg/file package](https://github.com/CoderI421/pkg/edit/main/README.md#pkgfile-package)
+  - [Example](https://github.com/CoderI421/pkg/edit/main/README.md#example)
 
 ## Install
 
