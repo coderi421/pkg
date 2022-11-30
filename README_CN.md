@@ -1,6 +1,6 @@
 ##  Hi, I`m CoderI421~
 
-[English](https://github.com/CoderI421/pkg/README.md) | 中文版
+[English](https://github.com/CoderI421/pkg#readme) | 中文版
 
 ## 介绍
 

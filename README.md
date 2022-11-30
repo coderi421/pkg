@@ -2,7 +2,7 @@
 
 ## Hi, I`m CoderI421~
 
-English | [中文版](https://github.com/CoderI421/pkg/README_CN.md)
+English | [中文版](https://github.com/CoderI421/pkg/blob/main/README_CN.md)
 
 ## Introduction
 
