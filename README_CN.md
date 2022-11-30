@@ -11,7 +11,7 @@
 Limited ability, make it better~
 
 - [安装](#安装)
-- [`pkg/file` 包](#`pkg/file` 包)
+- [pkg/file 包](#pkg/file 包)
   - [例子](#例子)
 
 ## 安装
