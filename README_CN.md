@@ -10,6 +10,18 @@
 
 Limited ability, make it better~
 
+- [安装](#安装)
+- [`pkg/file` 包](#`pkg/file` 包)
+  - [例子](#例子)
+
+## 安装
+
+使用 Go 的[工具链](https://golang.org/doc/install#testing)安装:
+
+```go
+go get -u github.com/CoderI421/pkg
+```
+
 ### `pkg/file` 包
 
 与 `文件操作` 相关的工具包，降低使用 go 原生库操作文件的难度，让你更快达成目标。
@@ -49,3 +61,34 @@ Limited ability, make it better~
 - func MustOpen(fileName, filePath string) (os.File, error)
 
   功能：最大努力打开文件，如果不存在，则创建
+
+##### 例子:
+
+```go
+// test/a/a.go
+package a
+
+import (
+	"github.com/CoderI421/pkg/file"
+)
+func A() string {
+    return file.GetLineNumWithTrace()
+}
+```
+
+```go
+//ex. GetLineNumWithTrace
+package main
+
+import (
+	"fmt"
+
+	"test/a"
+)
+func main()  {
+    fmt.Println(a.A())
+}
+
+//output:
+// a\a.go:8 < test\main.go:9
+```

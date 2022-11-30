@@ -12,6 +12,18 @@ I will be glad if it can be of any help to you~
 
 Limited ability, make it better~
 
+- [Install](#install)
+- [`pkg/file` package](#`pkg/file` package)
+  - [Example](#Example)
+
+## Install
+
+With a [correctly configured](https://golang.org/doc/install#testing) Go toolchain:
+
+```go
+go get -u github.com/CoderI421/pkg
+```
+
 ### `pkg/file` package
 
 File related tool functions to reduce the difficulty of using native go package,  let you achieve target faster~
@@ -51,3 +63,34 @@ File related tool functions to reduce the difficulty of using native go package,
 - func MustOpen(fileName, filePath string) (os.File, error)
 
   Function: maximize trying to open the file. Create file if not exist
+
+##### Example:
+
+```go
+// test/a/a.go
+package a
+
+import (
+	"github.com/CoderI421/pkg/file"
+)
+func A() string {
+    return file.GetLineNumWithTrace()
+}
+```
+
+```go
+//ex. GetLineNumWithTrace
+package main
+
+import (
+	"fmt"
+
+	"test/a"
+)
+func main()  {
+    fmt.Println(a.A())
+}
+
+//output:
+// a\a.go:8 < test\main.go:9
+```
